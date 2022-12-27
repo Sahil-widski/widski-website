@@ -14,7 +14,7 @@ const Intro2 = ({ sliderRef }) => {
               </div>
               <h1 className="mb-10 fw-600">You Think, We Build</h1>
               <p>
-              We create a silky-smooth mobile app according to the requirements of our clients' businesses to assist them flourish..
+             We create a silky-smooth mobile app according to the requirements of our clients businesses to assist them flourish..
               </p>
            
               <Link
