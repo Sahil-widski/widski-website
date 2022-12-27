@@ -1,7 +1,7 @@
 import React from "react";
 import ContactFromDate from "../../data/sections/form-info.json";
 import { Formik, Form, Field } from "formik";
-
+import Link from 'next/link'
 const ContactForm = () => {
   const messageRef = React.useRef(null);
   function validateEmail(value) {
@@ -80,10 +80,13 @@ const ContactForm = () => {
                         required="required"
                       />
                     </div>
-
+                    <Link
+                href={`https://api.whatsapp.com/send?phone=917977038084&text=I ${touched.email} visited your website and would like to develop a mobile application for my company.`}
+              >
                     <button type="submit" className="butn bord">
                       <span>Send Message</span>
                     </button>
+                    </Link>
                   </Form>
                 )}
               </Formik>
@@ -111,20 +114,7 @@ const ContactForm = () => {
                   {ContactFromDate.location.second}
                 </h6>
               </div>
-              <div className="social mt-50">
-                <a href="#0" className="icon">
-                  <i className="fab fa-facebook-f"></i>
-                </a>
-                <a href="#0" className="icon">
-                  <i className="fab fa-twitter"></i>
-                </a>
-                <a href="#0" className="icon">
-                  <i className="fab fa-pinterest"></i>
-                </a>
-                <a href="#0" className="icon">
-                  <i className="fab fa-behance"></i>
-                </a>
-              </div>
+              
             </div>
           </div>
         </div>

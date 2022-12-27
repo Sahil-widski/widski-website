@@ -16,8 +16,9 @@ const Intro2 = ({ sliderRef }) => {
               <p>
               We create a silky-smooth mobile app according to the requirements of our clients' businesses to assist them flourish..
               </p>
+           
               <Link
-                href={`/contact/contact-light`}
+              href={`https://api.whatsapp.com/send?phone=917977038084&text=I visited your website and would like to develop a mobile application for my company.`}
               >
                 <a className="butn bord curve mt-30">
                   <span>Get Quote</span>

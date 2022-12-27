@@ -1,10 +1,10 @@
 {
   "id": 1,
   "title": "Let's Talk.",
-  "email": "Email@example.com",
-  "phone": "+4.930.705.5448",
+  "email": "info@widski.com",
+  "phone": "+91 7977 03 8084",
   "location": {
-    "first": "295 Witting Streets Suite 666,",
-    "second": "Melbourne, Australia"
+    "first": "Shop No 3, Manibhadra Tower, Indralok Phase 4",
+    "second": "Bhayander, Mumbai"
   }
 }
