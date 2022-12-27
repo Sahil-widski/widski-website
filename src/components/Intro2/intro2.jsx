@@ -10,25 +10,27 @@ const Intro2 = ({ sliderRef }) => {
           <div className="col-lg-6 valign">
             <div className="cont md-mb50">
               <div className="sub-title mb-5">
-                <h6>Digital Consulting Agency</h6>
+                <h6>Mobile App Development Company</h6>
               </div>
-              <h1 className="mb-10 fw-600">Unique Business Consulting.</h1>
+              <h1 className="mb-10 fw-600">You Think, We Build</h1>
               <p>
-                We help our clients succeed by creating brand identities,
-                digital experiences, and print materials.
+              We create a silky-smooth mobile app according to the requirements of our clients' businesses to assist them flourish..
               </p>
               <Link
-                href={`/about/about-dark`}
+                href={`/contact/contact-light`}
               >
                 <a className="butn bord curve mt-30">
-                  <span>About Us</span>
+                  <span>Get Quote</span>
                 </a>
               </Link>
             </div>
           </div>
           <div className="col-lg-6">
             <div className="img">
-              <img src="/img/slid/001.jpg" alt="" />
+            {/* <video autoPlay loop style={{ width: '500px', height: '500px' }}>
+        <source src="/" />
+      </video> */}
+              <img src="/img/slid/001.png" alt="" />
             </div>
           </div>
         </div>

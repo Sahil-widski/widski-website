@@ -13,6 +13,7 @@ import appData from '../../data/app.json'
 import CallToAction from "../../components/Call-to-action/call-to-action";
 import Footer from "../../components/Footer/footer";
 import LightTheme from "../../layouts/Light";
+import Intro2 from "../../components/Intro2/intro2";
 
 const Homepage1 = () => {
   const fixedSlider = React.useRef(null);
@@ -50,7 +51,9 @@ const Homepage1 = () => {
   return (
     <LightTheme>
       <Navbar nr={navbarRef} lr={logoRef} />
-      <IntroWithSlider sliderRef={fixedSlider} />
+      <Intro2 />
+      
+      {/* <IntroWithSlider sliderRef={fixedSlider} /> */}
       <div ref={MainContent} className="main-content">
         <AboutUs />
         <Services />

@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>Widski Technologies</title>
-        <link rel="icon" href="/img/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Cursor />
       <LoadingScreen />
