@@ -26,7 +26,7 @@ const CallToAction = ({img}) => {
 
             <div className="col-md-4 col-lg-3 valign">
               <Link
-                href={`/contact/contact-dark`}
+                href={`https://api.whatsapp.com/send?phone=917977038084&text=I visited your website and would like to develop a mobile application for my company.`}
               >
                 <a
                   className="butn bord curve wow fadeInUp"
