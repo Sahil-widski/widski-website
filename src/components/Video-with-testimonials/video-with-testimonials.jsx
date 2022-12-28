@@ -76,11 +76,11 @@ const VideoWithTestimonials = () => {
                     It was a pleasure working with the entire Widski development team. They were able to launch our iOS app in a few months and it looks and works beautifully. It’s difficult to find a technical partner with a balance of business acumen but Raj provided us with technical and strategic insight..
                     </p>
                     <div className="info">
-                      <div className="img">
+                      {/* <div className="img">
                         <div className="img-box">
                           <img src="/img/clients/1.jpg" alt="" />
                         </div>
-                      </div>
+                      </div> */}
                       <div className="cont">
                         <div className="author">
                           <h6 className="author-name ">Bipin Rakholiya</h6>
@@ -96,11 +96,11 @@ const VideoWithTestimonials = () => {
                     I have Known Widski for 1+ year and have been impressed with the diversity and quality of Widski work. With that solid foundation it was really easy to select Widski as our development partner. Widski has both the experience and collaborative approach to take ideas and create incredible cross-platform apps. We literally went from idea/mockups to taking revenue in 3 months.
                     </p>
                     <div className="info">
-                      <div className="img">
+                      {/* <div className="img">
                         <div className="img-box">
                           <img src="/img/clients/2.jpg" alt="" />
                         </div>
-                      </div>
+                      </div> */}
                       <div className="cont">
                         <div className="author">
                           <h6 className="author-name ">Oran Sears</h6>
@@ -116,11 +116,11 @@ const VideoWithTestimonials = () => {
                     Widski has earned an exalted place in app development history by achieving the rare trifecta of delivering a high-quality app on time, within budget, and according to spec. And the CEO Sahil Shah made it all a pleasant experience. I highly recommend Widski for software development.
                     </p>
                     <div className="info">
-                      <div className="img">
+                      {/* <div className="img">
                         <div className="img-box">
                           <img src="/img/clients/3.jpg" alt="" />
                         </div>
-                      </div>
+                      </div> */}
                       <div className="cont">
                         <div className="author">
                           <h6 className="author-name ">Nilesh Jha</h6>
