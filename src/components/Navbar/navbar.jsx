@@ -14,7 +14,8 @@ const Navbar = ({ lr, nr, theme }) => {
     >
       <div className="container">
         <Link href="/">
-          <a className="logo">
+         <>
+         <a className="logo">
             {theme ? (
               theme === "themeL" ? (
                 <img ref={lr} src={appData.darkLogo} alt="logo" />
@@ -23,8 +24,11 @@ const Navbar = ({ lr, nr, theme }) => {
               )
             ) : (
               <img ref={lr} src={appData.lightLogo} alt="logo" />
-            )}
+            )} 
+
           </a>
+          <span>Widski Technologies</span>
+         </>
         </Link>
 
         <button
