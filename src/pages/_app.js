@@ -5,8 +5,10 @@ import Cursor from "../components/cursor";
 import ScrollToTop from "../components/scrollToTop";
 import LoadingScreen from "../components/Loading-Screen";
 import "../styles/main.scss";
+import { GoogleAnalytics } from "nextjs-google-analytics";
 
 function MyApp({ Component, pageProps }) {
+  
   return (
     <>
       <Head>
@@ -15,6 +17,7 @@ function MyApp({ Component, pageProps }) {
       </Head>
       <Cursor />
       <LoadingScreen />
+      <GoogleAnalytics gaMeasurementId="G-4JHCTFK45G"  trackPageViews />
       <Component {...pageProps} />
       <ScrollToTop />
       <Script id="wow" src="/js/wow.min.js"></Script>
