@@ -65,9 +65,9 @@ const termsandcondition = () => {
               or completeness of the information. You acknowledge and agree that
               any reliance on the information provided is at your own risk. If
               you require more specific and detailed clauses or additional
-              sections, it's advisable to consult with a legal professional or
+              sections, its advisable to consult with a legal professional or
               attorney who can tailor the privacy policy and terms and
-              conditions to meet your company's specific needs and comply with
+              conditions to meet your companys specific needs and comply with
               the relevant laws and regulations in your jurisdiction.
             </p>
           </div>
